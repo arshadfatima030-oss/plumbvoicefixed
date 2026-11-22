@@ -55,7 +55,21 @@ export function accessFor(ws: TenantWorkspace, now = Date.now()): AccessInfo {
  * Which plan unlocks which paid extra. Starter keeps the core receptionist (calls, leads, transcripts, alerts, website chat).
  * Like the billing rules above, this is enforced ONLY when Stripe is configured; a free trial can try everything.
  */
-export type PlanFeature = 'calendar' | 'missedCallText' | 'ringFirst' | 'webhooks' | 'knowledgeImport' | 'smsActions' | 'multiLocation';
+export type PlanFeature =
+  | 'calendar'
+  | 'missedCallText'
+  | 'ringFirst'
+  | 'webhooks'
+  | 'knowledgeImport'
+  | 'smsActions'
+  | 'multiLocation'
+  | 'quotes'
+  | 'reminders'
+  | 'leadMerge'
+  | 'bookingPage'
+  | 'technicianApp'
+  | 'auditLog'
+  | 'jsonExport';
 const PLAN_RANK: Record<string, number> = {Starter: 0, Professional: 1, Business: 2};
 const FEATURE_MIN_PLAN: Record<PlanFeature, 'Starter' | 'Professional' | 'Business'> = {
   calendar: 'Professional',
@@ -65,6 +79,13 @@ const FEATURE_MIN_PLAN: Record<PlanFeature, 'Starter' | 'Professional' | 'Busine
   knowledgeImport: 'Professional',
   smsActions: 'Professional',
   multiLocation: 'Business',
+  quotes: 'Professional',
+  reminders: 'Professional',
+  leadMerge: 'Professional',
+  bookingPage: 'Professional',
+  technicianApp: 'Professional',
+  auditLog: 'Business',
+  jsonExport: 'Business',
 };
 export const FEATURE_LABEL: Record<PlanFeature, string> = {
   calendar: 'Google Calendar booking',
@@ -74,6 +95,13 @@ export const FEATURE_LABEL: Record<PlanFeature, string> = {
   knowledgeImport: 'Website knowledge import',
   smsActions: 'Texting links during a call',
   multiLocation: 'Multi-location routing',
+  quotes: 'Customer quotes',
+  reminders: 'Maintenance reminders and review requests',
+  leadMerge: 'Duplicate lead merge',
+  bookingPage: 'The online booking page',
+  technicianApp: 'Technician accounts (My Jobs view)',
+  auditLog: 'The activity log',
+  jsonExport: 'Full data export (JSON)',
 };
 
 export function planAllows(ws: TenantWorkspace, feature: PlanFeature, now = Date.now()): boolean {
