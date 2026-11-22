@@ -1,0 +1,243 @@
+---
+name: Crafted Precision
+colors:
+  surface: '#f8f9fd'
+  surface-dim: '#d8dade'
+  surface-bright: '#f8f9fd'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#f2f3f7'
+  surface-container: '#eceef2'
+  surface-container-high: '#e7e8ec'
+  surface-container-highest: '#e1e2e6'
+  on-surface: '#191c1f'
+  on-surface-variant: '#564339'
+  inverse-surface: '#2e3134'
+  inverse-on-surface: '#eff1f5'
+  outline: '#897268'
+  outline-variant: '#dcc1b4'
+  surface-tint: '#9b4507'
+  primary: '#984304'
+  on-primary: '#ffffff'
+  primary-container: '#b75a1f'
+  on-primary-container: '#fffbff'
+  inverse-primary: '#ffb68f'
+  secondary: '#835400'
+  on-secondary: '#ffffff'
+  secondary-container: '#fdb244'
+  on-secondary-container: '#6e4600'
+  tertiary: '#006a3b'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#268451'
+  on-tertiary-container: '#f6fff4'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#ffdbca'
+  primary-fixed-dim: '#ffb68f'
+  on-primary-fixed: '#331100'
+  on-primary-fixed-variant: '#773200'
+  secondary-fixed: '#ffddb5'
+  secondary-fixed-dim: '#ffb956'
+  on-secondary-fixed: '#2a1800'
+  on-secondary-fixed-variant: '#633f00'
+  tertiary-fixed: '#9af6b8'
+  tertiary-fixed-dim: '#7ed99e'
+  on-tertiary-fixed: '#00210f'
+  on-tertiary-fixed-variant: '#00522d'
+  background: '#f8f9fd'
+  on-background: '#191c1f'
+  surface-variant: '#e1e2e6'
+typography:
+  display:
+    fontFamily: Manrope
+    fontSize: 3rem
+    fontWeight: '800'
+    lineHeight: 3.5rem
+    letterSpacing: -0.03em
+  display-mobile:
+    fontFamily: Manrope
+    fontSize: 2.25rem
+    fontWeight: '800'
+    lineHeight: 2.75rem
+    letterSpacing: -0.025em
+  headline-lg:
+    fontFamily: Manrope
+    fontSize: 2rem
+    fontWeight: '700'
+    lineHeight: 2.5rem
+    letterSpacing: -0.02em
+  headline-lg-mobile:
+    fontFamily: Manrope
+    fontSize: 1.5rem
+    fontWeight: '700'
+    lineHeight: 2rem
+    letterSpacing: -0.015em
+  headline-md:
+    fontFamily: Manrope
+    fontSize: 1.375rem
+    fontWeight: '600'
+    lineHeight: 1.75rem
+    letterSpacing: -0.01em
+  headline-sm:
+    fontFamily: Manrope
+    fontSize: 1.125rem
+    fontWeight: '600'
+    lineHeight: 1.5rem
+    letterSpacing: '0'
+  metric-stat:
+    fontFamily: Manrope
+    fontSize: 2.5rem
+    fontWeight: '800'
+    lineHeight: 2.75rem
+    letterSpacing: -0.03em
+  body-lg:
+    fontFamily: Inter
+    fontSize: 1.0625rem
+    fontWeight: '400'
+    lineHeight: 1.625rem
+    letterSpacing: -0.005em
+  body-md:
+    fontFamily: Inter
+    fontSize: 0.9375rem
+    fontWeight: '400'
+    lineHeight: 1.45rem
+    letterSpacing: '0'
+  body-sm:
+    fontFamily: Inter
+    fontSize: 0.8125rem
+    fontWeight: '400'
+    lineHeight: 1.25rem
+    letterSpacing: '0'
+  label-caps:
+    fontFamily: Inter
+    fontSize: 0.6875rem
+    fontWeight: '700'
+    lineHeight: 1rem
+    letterSpacing: 0.08em
+  label-md:
+    fontFamily: Inter
+    fontSize: 0.875rem
+    fontWeight: '500'
+    lineHeight: 1.25rem
+    letterSpacing: '0'
+  label-sm:
+    fontFamily: Inter
+    fontSize: 0.75rem
+    fontWeight: '600'
+    lineHeight: 1rem
+    letterSpacing: 0.02em
+rounded:
+  sm: 0.25rem
+  DEFAULT: 0.5rem
+  md: 0.75rem
+  lg: 1rem
+  xl: 1.5rem
+  full: 9999px
+spacing:
+  gutter: 1.5rem
+  gutter-mobile: 1rem
+  margin: 2rem
+  margin-mobile: 1rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2.5rem
+---
+
+## Brand & Style
+The design system positions itself at the intersection of rugged American craftsmanship and high-velocity Silicon Valley engineering. Designed exclusively for plumbing, electrical, and HVAC service business owners, it balances mission-critical operational reliability with bespoke warmth.
+
+Key stylistic principles:
+- **Craftsmanship & Utility:** Functional density inspired by modern high-efficiency developer tools (e.g., Linear), balanced with the human dignity and tangible materiality of trade tools (e.g., brushed copper, kiln clay, warm steel).
+- **Absolute Trust & Clarity:** Zero visual gimmicks. Avoid excessive motion, frivolous gradients, or decorative noise. Metrics, dispatch statuses, call transcripts, and lead alerts must be legible at a glance from a field truck dashboard or a busy back-office dispatch desk.
+- **Dignified Modernity:** A strict rejection of generic corporate SaaS blues. The visual tone relies on deep architectural charcoal, natural warm lime-washed paper backdrops, and metallic copper conduits.
+
+## Colors
+The palette evokes raw copper piping, electrical conduit warmth, and aged architectural blueprints while delivering stringent WCAG AA compliance across all touchpoints.
+
+### Core Role Assignments
+- **Primary / Brand Action (`#C8672B`):** Copper. Reserved for primary interactive triggers, active phone states, high-priority conversion flows, and decisive action links.
+- **Secondary / Highlight (`#F2A93B`):** Warm Amber. Used for real-time live events, incoming call notifications, audio wave visualizations, and selective accent badges.
+- **Dark Neutral / Structural Canvas (`#1C1F22`):** Deep Charcoal. Powers application navigation bars, primary headings, telephonic status headers, and high-impact structural framing.
+- **Canvas & Backgrounds:**
+  - Page Surface: `#FAF7F2` (Warm linen off-white; provides soft contrast against field truck screen glare).
+  - Component Container: `#FFFFFF` (Pure white for cards, panels, modal dialogs).
+  - Container Border: `#ECE6DC` (Muted putty; establishes structural containment without visual heaviness).
+- **Text Hierarchy:**
+  - Headings & High-Emphasis: `#1C1F22`
+  - Body & Form Values: `#23282D`
+  - Secondary & Muted Context: `#7A746B`
+  - Accent / Subtle Tint Fill: `#FBEBDD` (Soft copper wash for badge backgrounds and active table rows).
+- **Semantic Feedback:**
+  - Success / Call Booked: `#2E8B57` (Forest Green)
+  - Warning / Missed or Escalated: `#E9A23B` (Warm Amber)
+  - Danger / Emergency Pipe Burst / Lost Lead: `#D64545` (Crimson Red)
+
+## Typography
+Typography creates a strong architectural hierarchy. **Manrope** lends geometric structure and solid massing to headlines, call recording summaries, and quantitative telemetry. **Inter** ensures crystal-clear utility across multi-line live transcriptions, customer logs, and form inputs.
+
+Guidelines:
+- **Metric Displays (`metric-stat`):** Use for high-stakes KPIs (e.g., "99.4% Lead Capture", "12s Avg Pickup"). Metric labels must sit strictly beneath or adjacent using uppercase `label-caps`.
+- **Micro-Tracking:** Apply `label-caps` in uppercase across table headers, category tags, caller status states, and section markers (`letter-spacing: 0.08em; text-transform: uppercase;`).
+- **Call Transcripts:** Set phone caller dialogues in `body-md` with `lineHeight: 1.45rem` to prioritize readability during real-time speech processing.
+
+## Layout & Spacing
+The layout adheres to a strict 12-column grid on desktop screens (1024px and up), transitioning to an 8-column layout on tablets (768px - 1023px), and a responsive single/two-column stacking flow on mobile (below 768px).
+
+### Layout System
+- **Maximum Width:** Content containers lock to a max structural width of `1280px` for operations dashboards, centering horizontally with fluid margins.
+- **Sidebar Integration:** Desktop operations use a fixed `260px` structural charcoal sidebar (`#1C1F22`), with remaining space functioning as an auto-flowing grid with `gutter: 1.5rem`.
+- **Vertical Rhythm:** Space out metric clusters and primary tables using `space-xl` (40px). Group form inputs, call details, and transcript lines cleanly with `space-sm` (8px) and `space-md` (16px).
+
+## Elevation & Depth
+Elevation mimics clean architectural layering: sheets of clean white paper and dark structural instruments set over a warm workshop plane. Ambient drop shadows are tinted subtly with charcoal and copper warmth rather than synthetic neutral grays.
+
+### Shadow Scale
+- **Flat Border (Surface Tier 0):** Zero elevation. Used on inner inset panels, table rows, and transcription speech bubbles. Boundaries are enforced with a `1px solid #ECE6DC` perimeter.
+- **Card / Raised Tier (Tier 1):** `box-shadow: 0 1px 3px rgba(28, 31, 34, 0.04), 0 4px 12px rgba(200, 103, 43, 0.03); border: 1px solid #ECE6DC;`
+  Used across all standard dashboard lead cards, call summaries, and settings groups.
+- **Floating / Active Card (Tier 2):** `box-shadow: 0 4px 6px -1px rgba(28, 31, 34, 0.06), 0 12px 24px -4px rgba(28, 31, 34, 0.08);`
+  Applied on live-incoming call overlays, focused lead inspectors, and hover states.
+- **Modal / Popover (Tier 3):** `box-shadow: 0 20px 32px -8px rgba(28, 31, 34, 0.16), 0 1px 2px rgba(28, 31, 34, 0.06);`
+  Used for direct customer call initiation panels and emergency dispatch dialogs.
+
+## Shapes
+The shape strategy combines structured rectangular containment with softened ergonomic touchpoints (`roundedness: 2` — 0.5rem base, with 12px / 0.75rem cards).
+
+- **Cards & Data Surfaces:** Default to `12px` (`0.75rem`), balancing modern softness with maximum grid containment.
+- **Interactive Buttons & Inputs:** Default to `8px` (`0.5rem`), providing clear click/tap affordance.
+- **Status Badges & Live Indicators:** Strict pill shape (`9999px`) to immediately visually differentiate taxonomy tags from action buttons.
+- **Border Treatment:** Always combine radius with a crisp `1px` structural outline (`#ECE6DC`) to retain clarity against light backgrounds.
+
+## Components
+
+### Buttons
+- **Primary Button:** Copper background (`#C8672B`), white text (`#FFFFFF`), `font-weight: 600`, `8px` radius, padding `0.625rem 1.25rem`. On hover: `#B55A22`. On active/pressed: `#9E4D1A`. Subtle `0 1px 2px rgba(0,0,0,0.08)` shadow.
+- **Secondary Button:** Surface white (`#FFFFFF`), charcoal text (`#1C1F22`), border `1px solid #ECE6DC`. On hover: background `#FAF7F2`, border `#DCD5C9`.
+- **Emergency / Live Action Button:** Deep Charcoal (`#1C1F22`) with Amber highlight accents (`#F2A93B`), for overriding AI actions or jumping into ongoing phone calls.
+
+### Chips & Badges
+- **Status Pills:** Compact layout with `4px 10px` padding, uppercase `label-caps` typography, `9999px` radius.
+  - *New Lead / Active Call:* Background `#FBEBDD`, Text `#C8672B`, border `1px solid rgba(200, 103, 43, 0.25)`.
+  - *Booked Job:* Background `#EBF6F0`, Text `#2E8B57`, border `1px solid rgba(46, 139, 87, 0.25)`.
+  - *Emergency Dispatch:* Background `#FDF0F0`, Text `#D64545`, border `1px solid rgba(214, 69, 69, 0.25)`.
+
+### Form Fields & Inputs
+- **Text Inputs & Dropdowns:** Height `42px`, background `#FFFFFF`, border `1px solid #ECE6DC`, radius `8px`, typography `body-md` (`#23282D`).
+- **Focus State:** Border changes to `#C8672B` with a `0 0 0 3px rgba(200, 103, 43, 0.15)` focus ring.
+- **Input Labels:** `label-caps` in `#7A746B`, sitting strictly `6px` above the input control.
+
+### Cards & Panels
+- **Standard Lead / Metric Card:** Background `#FFFFFF`, border `1px solid #ECE6DC`, radius `12px`, padding `1.5rem`.
+- **Card Header:** Separated from content by a structural rule or clear vertical spacing (`space-md`), featuring a category indicator in `label-caps` and primary values in `headline-md`.
+
+### Call Transcripts & AI Audio Player
+- **Dialogue Stream:** Distinct bubbles for Customer vs. Voice Receptionist:
+  - *Voice Receptionist:* Background `#FAF7F2`, border `1px solid #ECE6DC`, aligned left.
+  - *Customer:* Background `#FFFFFF`, border `1px solid #ECE6DC`, subtle ambient shadow.
+- **Waveform / Audio Bar:** Deep Charcoal track `#1C1F22` with active playback scrub represented in metallic Copper (`#C8672B`) and live speech indicators in Amber (`#F2A93B`).
+
+### Checkboxes & Radios
+- Size `18px x 18px`, border `1.5px solid #7A746B`, radius `4px` (checkbox) or `9999px` (radio). Checked state: fill `#C8672B` with white checkmark glyph.
