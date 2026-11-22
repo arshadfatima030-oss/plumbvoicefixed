@@ -1,0 +1,6 @@
+{
+  "name": "Copperline Dispatch",
+  "description": "Voice receptionist and dispatch operations console for plumbing, electrical, and HVAC service businesses.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

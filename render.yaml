@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: plumbvoice
+    runtime: docker
+    plan: free
+    healthCheckPath: /api/ready
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: TRUST_PROXY
+        value: "1"
+      - key: DATABASE_SSL
+        value: "true"
+      - key: DATABASE_URL
+        sync: false
+      - key: APP_URL
+        sync: false
+      - key: GEMINI_API_KEY
+        sync: false
